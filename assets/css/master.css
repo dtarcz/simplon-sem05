@@ -1,0 +1,45 @@
+body{
+  width: 600px;
+  margin: auto;
+}
+ul{
+  border: 5px solid #8e44ad;
+  width: 50%;
+  padding: 5px;
+}
+li{
+  border-bottom: 1px dashed #ecf0f1;
+  width: 90%;
+  margin: auto;
+  padding: 5px;
+}
+.gars{
+  background-color: #3499DB;
+  color: #D2E8F7;
+  font-weight: bold;
+}
+.girl{
+  background-color: #FA2F4B;
+  color: #FED6DB;
+  font-weight: bold;
+}
+#maDiv{
+  background-color: orange;
+}
+#text{
+  color: red;
+}
+/* pour cours  : Les propriétés de type offset */
+#parent, #enfant {
+  position: absolute;
+  top: 50px; left: 100px;
+}
+
+#parent {
+  width: 200px; height: 200px;
+  background-color: blue;
+}
+#enfant {
+  width: 50px; height: 50px;
+  background-color: red;
+}
